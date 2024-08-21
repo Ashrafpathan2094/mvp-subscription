@@ -103,6 +103,12 @@
   }
 }
 
+.customHoverButton:hover {
+  background-color: white !important;
+  color: black !important;
+  border-color: black !important;
+}
+
 @media (max-width: 575.98px) {
   .navbarContainer {
     background-color: #0d0d0d;
