@@ -1,0 +1,21 @@
+.border50 {
+  border: 1px solid #f09d5d;
+  border-radius: 50%;
+  z-index: 2;
+}
+.textOrange {
+  color: #f09d5d;
+}
+.verticalLine {
+  min-height: 3rem;
+  width: 1px;
+  background-color: #f09d5d;
+  z-index: 1;
+  bottom: -200%;
+  right: 50%;
+}
+
+.descText {
+  font-size: 0.8rem;
+  font-weight: 300;
+}

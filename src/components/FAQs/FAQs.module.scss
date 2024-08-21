@@ -1,0 +1,25 @@
+.rotate90 {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.rotateMinus90 {
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease;
+}
+
+.questionTxt {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #d6e1e1;
+}
+
+.answerTxt {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #726f6e;
+}
+
+.FAQContainer {
+  cursor: pointer;
+}

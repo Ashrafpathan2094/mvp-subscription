@@ -1,0 +1,126 @@
+.bg {
+  background-color: #141414;
+  color: antiquewhite;
+}
+
+.header {
+  background: url("../../public/assets/Background.png");
+}
+
+.content {
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.headerTitle {
+  font-weight: 400;
+  letter-spacing: 0.6rem;
+  margin-bottom: 0;
+  font-size: 2.2rem;
+}
+
+.headerDesc {
+  font-size: 0.7rem;
+  color: #a6a3a2ff;
+}
+
+.reelDesc {
+  color: rgb(159, 158, 154);
+  font-size: 0.9rem;
+  border-bottom: 1px solid #5d5756 !important;
+  padding-bottom: 0.5rem;
+}
+
+.MVPSub {
+  font-size: 1.2rem;
+}
+
+.getStartedBtnDesktop {
+  background-color: #ce112c;
+  color: white;
+}
+
+.termsTxt {
+  font-size: 0.8rem;
+  color: #757475;
+}
+
+.faqHeading {
+  color: #cdcdcc;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.navBar {
+  border-bottom: 1px solid #5d5756 !important;
+}
+
+.navbarFooter {
+  width: 85%;
+  color: #a9a7a6;
+  font-size: 0.7rem;
+}
+
+.headerContainer {
+  margin-top: 10rem;
+  margin-bottom: 7rem;
+}
+
+.subscriptionContainer {
+  height: 3rem;
+  max-height: 3rem;
+}
+.getStartedBtnFooter {
+  background-color: #ce0f2d;
+  color: #ccc0c2;
+  width: 100%;
+}
+.stickyFooterTxt {
+  color: #7a797a;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.navbarContainer {
+  background-color: transparent;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .commanWidth {
+    width: 100% !important;
+  }
+
+  .footer,
+  .startButton {
+    display: none !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbarContainer {
+    background-color: #0d0d0d;
+  }
+
+  .headerTitle {
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .headerContainer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .footer {
+    display: none !important;
+  }
+}
