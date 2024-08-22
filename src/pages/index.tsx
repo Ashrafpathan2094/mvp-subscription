@@ -368,7 +368,7 @@ export default function Home() {
         </div>
 
         <div
-          className={`bg-black fixed-bottom  d-flex justify-content-center  ${styles.footer} `}
+          className={`bg-black fixed-bottom  d-flex d-sm-none justify-content-center `}
         >
           <div className="w-100 mx-3 d-flex flex-column justify-content-center align-items-center py-2">
             <button className={`btn px-5 ${styles.getStartedBtnFooter}`}>
